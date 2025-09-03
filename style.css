@@ -1,0 +1,220 @@
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fff0f5; /* rosinha claro */
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: #fff0f5;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #4a2c2a;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+
+
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 60px;
+}
+
+.banner-img img {
+  width: 300px;
+  border-radius: 15px;
+}
+
+.banner-text {
+  max-width: 400px;
+}
+
+.banner-text h1 {
+  font-size: 2rem;
+  color: #4a2c2a;
+  margin-bottom: 20px;
+}
+
+.btn-banner {
+  display: inline-block;
+  background: #c9a46d;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.beneficios {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 200px;
+}
+
+.card img {
+  width: 40px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Sobre */
+.sobre {
+  padding: 60px 20px;
+  text-align: center;
+  background: #fff;
+}
+
+.sobre h2 {
+  font-size: 2rem;
+  color: #e91e63;
+  margin-bottom: 20px;
+}
+
+.sobre p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+  color: #555;
+  line-height: 1.8;
+}
+
+
+.produtos {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.produtos h1 {
+  font-size: 2rem;
+  color: #e91e63;
+  margin-bottom: 40px;
+}
+
+.grid-produtos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.grid-produtos .card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.grid-produtos img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.grid-produtos h3 {
+  margin-bottom: 8px;
+  color: #4a2c2a;
+}
+
+.grid-produtos p {
+  font-size: 0.95rem;
+  color: #555;
+}
+/* Contato */
+.contato {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contato h1 {
+  font-size: 2rem;
+  color: #e91e63;
+  margin-bottom: 30px;
+}
+
+/* Informações */
+.contato-info {
+  margin-bottom: 40px;
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 2;
+}
+
+/* Formulário */
+.form-contato {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-contato input,
+.form-contato textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.form-contato textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.form-contato button {
+  background: #e91e63;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-contato button:hover {
+  background: #c2185b;
+}
